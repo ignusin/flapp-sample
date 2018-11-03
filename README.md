@@ -1,3 +1,4 @@
+# Setup
 ```
 # virtualenv ./venv
 ```
@@ -14,6 +15,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
+# FLAPP usage index
 1. Application context: core/context.py
 2. DI usage: api/auth.py : @uses decorator for "authorize" and "register" flask handlers
 3. Persistent objects: core/objects.py
