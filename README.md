@@ -5,3 +5,4 @@
 5. Validator usage: api/auth.py : @validated decorator for "register" flask handler
 6. DAO: core/dao/user_dao.py
 7. Service: core/services/user_service.py
+8. Rest API wrapper: api/auth.py : @rest decorator for "authorize" and "register" flask handlers
