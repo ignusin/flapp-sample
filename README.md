@@ -1,3 +1,19 @@
+```
+# virtualenv ./venv
+```
+For Linux:
+```
+# source ./venv/bin/activate
+```
+For Windows:
+```
+> .\venv\scripts\activate
+```
+```
+pip install -r requirements.txt
+python main.py
+```
+
 1. Application context: core/context.py
 2. DI usage: api/auth.py : @uses decorator for "authorize" and "register" flask handlers
 3. Persistent objects: core/objects.py
